@@ -98,7 +98,7 @@ sources:
   - name: hagezi-fake
     url: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/fake-onlydomains.txt
     category: security
-    enabled: true
+    enabled: false
   - name: hagezi-hoster
     url: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/hoster-onlydomains.txt
     category: ads
@@ -159,7 +159,7 @@ sources:
   - name: phishing-army-extended
     url: https://phishing.army/download/phishing_army_blocklist_extended.txt
     category: phishing
-    enabled: true
+    enabled: false
   - name: cyberhost-malware
     url: https://lists.cyberhost.uk/malware.txt
     category: malware
