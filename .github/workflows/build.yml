@@ -2,8 +2,8 @@ name: build-blocklist
 
 on:
   schedule:
-    # TEMP: one-shot test, 10:22 UTC on 2026-11-10 only
-    - cron: "22 10 10 11 *"
+    # 12:15 pm and 00:15 am AWST (UTC+8) -> 04:15 and 16:15 UTC
+    - cron: "15 4,16 * * *"
   workflow_dispatch:
   push:
     branches: [main]
