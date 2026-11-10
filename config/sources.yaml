@@ -168,7 +168,7 @@ sources:
     url: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
     category: ads
     enabled: true
-- name: perflyst-android-tracking
+  - name: perflyst-android-tracking
     url: https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/refs/heads/master/android-tracking.txt
     category: tracking
     enabled: true
