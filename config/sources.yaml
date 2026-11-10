@@ -168,3 +168,20 @@ sources:
     url: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
     category: ads
     enabled: true
+- name: perflyst-android-tracking
+    url: https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/refs/heads/master/android-tracking.txt
+    category: tracking
+    enabled: true
+    optional: true
+    note: Android device tracking captured from LineageOS; tiny, essentially unmaintained.
+  - name: lg-tv-ad-block
+    url: https://raw.githubusercontent.com/hugobatista/lg-tv-ad-block/refs/heads/main/list
+    category: ads
+    enabled: true
+    optional: true
+    note: LG webOS TV ads/telemetry (hosts format).
+  - name: hagezi-native-amazon
+    url: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.amazon.txt
+    category: tracking
+    enabled: true
+    note: Amazon device/app native trackers; wildcard rules become suffix blocks.
