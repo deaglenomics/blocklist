@@ -185,3 +185,8 @@ sources:
     category: tracking
     enabled: true
     note: Amazon device/app native trackers; wildcard rules become suffix blocks.
+  - name: oisd-big
+    url: https://big.oisd.nl
+    category: ads
+    enabled: true
+    note: OISD Big (ABP). Aggregator, ~95% overlap with existing sources; ~11k unique.
