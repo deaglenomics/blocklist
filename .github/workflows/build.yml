@@ -2,8 +2,6 @@ name: build-blocklist
 
 on:
   schedule:
-    # TEMP test trigger, remove after verification
-    - cron: "*/30 * * * *"
     # 12:15 pm and 00:15 am AWST (UTC+8) -> 04:15 and 16:15 UTC
     - cron: "15 4,16 * * *"
   workflow_dispatch:
